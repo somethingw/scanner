@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/lv_scan"
+        android:layout_width="match_parent"
+        android:layout_weight="12"
+        android:background="@color/white"
+        android:layout_height="match_parent" >
+    </ListView>
+    <View
+        android:id="@+id/line_dp"
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp">
+
+    </View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="88"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="共计XX种。"
+            />
+        <Button
+            android:id="@+id/btn_postprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="150dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="4dp"
+
+            android:gravity="center"
+            android:text="提交"
+            android:layout_toRightOf="@id/tv_count"
+            android:textColor="@color/white"
+            android:background="@color/greeny"
+            android:layout_gravity="center"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:18:1-32:12
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:18:1-32:12
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:18:1-32:12
+	package
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:19:7-31
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:18:11-69
+uses-sdk
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+	android:targetSdkVersion
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:15-44
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:21:5-47
+		INJECTED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:23:5-65
+	android:name
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:23:22-62
+uses-feature#android.hardware.camera
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:25:5-60
+	android:name
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:25:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:26:5-70
+	android:name
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:26:19-67
+application
+ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:27:5-31:19
+	android:label
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:29:9-41
+	android:allowBackup
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:28:9-35
+	android:theme
+		ADDED from E:\SCANNER\scanner2\SDKLibrary\src\main\AndroidManifest.xml:30:9-40

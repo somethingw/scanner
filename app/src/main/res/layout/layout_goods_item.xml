@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65.0dip"
+        android:background="@color/white"
+        android:paddingLeft="10dip">
+
+        <TextView
+            android:id="@+id/txt_goodsname"
+            style="@style/MMFontTitleInList"
+            android:text="商品1"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/txt_code"
+            android:layout_below="@id/txt_goodsname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/black_overlay"
+            android:text="123211455"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/txt_total"
+            style="@style/txt_titleStyle1"
+            android:layout_width="60dp"
+            android:layout_height="32dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="X10"
+            android:textColor="@color/greeny"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".GoodsDetailActivity"
+    >
+    <TextView
+        android:id="@+id/titleBar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:text="打印单详情" />
+    <TextView
+        android:id="@+id/tv_shop_nme"
+        android:layout_marginLeft="10dp"
+        android:text="门店名称："
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp"></View>
+<TextView
+    android:id="@+id/tv_order_ID"
+    android:layout_marginLeft="10dp"
+    android:text="订单编号："
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:id="@+id/tv_cretetime"
+        android:layout_marginLeft="10dp"
+        android:text="创建时间："
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp"></View>
+    <TextView
+    android:id="@+id/tv_print_time"
+    android:layout_marginLeft="10dp"
+    android:text="打印时间："
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:id="@+id/tv_print_status"
+        android:layout_marginLeft="10dp"
+        android:text="打印状态："
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/backgroud"
+        android:layout_height="1dp"></View>
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_marginLeft="10dp"
+        android:text="详情："
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <ListView
+        android:id="@+id/lv_detail_goods_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+</LinearLayout>

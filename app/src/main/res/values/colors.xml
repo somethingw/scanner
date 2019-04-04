@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1657a7</color>
+    <color name="colorPrimaryDark">#1d497e</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgroud">#eaeaea</color>
+    <color name="white">#fff</color>
+   <color name="black">#111</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="red">#FC2828</color>
+    <color name="red1">#ffe36c09</color>
+    <color name="red3">#ffc0504d</color>
+    <color name="orange1">#ffff7d27</color>
+    <color name="orange2">#ffd75702</color>
+    <color name="orange4">#ffa57d3e</color>
+    <color name="greeny">#ff11aca6</color>
+    <color name="orange3">#ffffd1b3</color>
+    <color name="divider">#ffd2d2d2</color>
+</resources>
